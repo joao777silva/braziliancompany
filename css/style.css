@@ -5,7 +5,7 @@ body, ul {
     padding: 0px;
 }
 #menu a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: sans-serif;
     font-size: 1.25em;
@@ -14,7 +14,7 @@ body, ul {
 }
 
 #menu a:hover {
-    color: crimson;
+    color: rgb(217, 80, 245);
     font-size: 1.6em ;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
@@ -28,7 +28,7 @@ body, ul {
 
 #logo img {
    float: left;
-   height: 55px;
+   height: 100px;
    position: relative;
    top: 0px;
    left: 0px;
@@ -40,12 +40,12 @@ body, ul {
     position: fixed;
     z-index: 90;
     box-sizing: border-box;
-    height: 75px;
+    height: 100px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background:rgb(100, 3, 156) ;
 }
 
 #menu {
@@ -67,7 +67,7 @@ body, ul {
   
 }
 #carouselExampleInterval img {
-    height: 400px;
+    height: 500px;
     width: auto;
 }
 
@@ -104,10 +104,52 @@ body, ul {
 
 }
 .section-banner-home .texto-banner a {
-    color: rgb(143, 6, 143);
+    color: rgb(137, 16, 185);
     text-decoration: none;
-    background-color: #fff;
+    background-color: rgb(192, 56, 226));
     padding: 4px 14px;
     font-size: 15px;
 
 }
+ /* fim css estilos banner */
+
+ /* inicio css destaques */
+
+ .destaque h2 {
+   margin-top: 15px;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+ }
+ .destaque p{
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px;
+ }
+ .destaque figcaption {
+   font-size: 13px;
+   color: #000;
+   text-decoration: none;
+   font-weight: bold;
+   text-align: center;
+ }
+ .destaque a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+ }
+ .destaque a:hover{
+    color: rgb(162, 0, 255);
+    font-size: 20px;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px;
+ }
+ .destaque img {
+    height: 220px;
+
+ }
