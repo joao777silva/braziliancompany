@@ -1,10 +1,12 @@
 /* arquivo responsavel pelos estilos*/
 /* Aula 24/04/2023 - Estilos do meno*/
-body, ul {
+body,
+ul {
     margin: 0px;
     padding: 0px;
 }
-#menu a{
+
+#menu a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: sans-serif;
@@ -15,23 +17,24 @@ body, ul {
 
 #menu a:hover {
     color: rgb(178, 35, 235);
-    font-size: 1.6em ;
+    font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
-    
+
 }
-#logo img:hover{
+
+#logo img:hover {
     box-shadow: 4px 4px 6px #0000007a;
     transition: 0.3s;
 
 }
 
 #logo img {
-   float: left;
-   height: 100px;
-   position: relative;
-   top: 0px;
-   left: 0px;
+    float: left;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 #header {
@@ -45,7 +48,7 @@ body, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:rgb(0, 0, 0) ;
+    background: rgb(0, 0, 0);
 }
 
 #menu {
@@ -59,43 +62,33 @@ body, ul {
     display: none;
 
 }
-/*  
+
 .carousel-inner .carousel-item img {
- width: 100%;
- margin: auto;
- max-height: 500px;
- padding-top: 85px;
+    width: 100%;
+    margin: auto;
+    max-height: 500px;
+    padding-top: 85px;
 
 }
- */
-
-    
-
-  
 
 #carouselExampleInterval {
-   position: relative;
-   z-index: 10;
-   padding-top: 80px;
-   margin-left: 8px;
-   margin-right: 8px;
-   box-shadow: 6px 6px 6px #0000007a;
-   transition: 0.3;
-  
+    position: relative;
+    z-index: 10;
+    padding-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 6px 6px 6px #0000007a;
+    transition: 0.3;
+
 }
+
 #carouselExampleInterval img {
-    max-width: 100%;
-    max-height:  50%;
-
-
-    
-    margin-left: 100px;
     height: auto;
     width: auto;
 }
 
 /* css estilos banner */
-.section-banner-home  {
+.section-banner-home {
     width: 100%;
     height: 500px;
     margin-top: 10px;
@@ -108,12 +101,14 @@ body, ul {
     height: 400px;
     width: auto;
 }
-.section-banner-home .texto-banner { 
+
+.section-banner-home .texto-banner {
     margin-top: 30px;
     font-size: 22px;
 
 
 }
+
 .section-banner-home .texto-banner h1 {
     font-size: 30px;
     width: 60%;
@@ -121,11 +116,13 @@ body, ul {
     padding-bottom: 20px;
 
 }
+
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
 
 }
+
 .section-banner-home .texto-banner a {
     color: rgb(251, 240, 255);
     text-decoration: none;
@@ -134,30 +131,34 @@ body, ul {
     font-size: 15px;
 
 }
- /* fim css estilos banner */
 
- /* inicio css destaques */
+/* fim css estilos banner */
 
- .destaque h2 {
-   margin-top: 15px;
-   text-align: center;
-   font-size: 24px;
-   font-weight: bold;
- }
- .destaque p{
+/* inicio css destaques */
+
+.destaque h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.destaque p {
     width: 77%;
     text-align: center;
     font-size: 14px;
     margin: 30px;
- }
- .destaque figcaption {
-   font-size: 13px;
-   color: #000;
-   text-decoration: none;
-   font-weight: bold;
-   text-align: center;
- }
- .destaque a {
+}
+
+.destaque figcaption {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.destaque a {
     justify-content: center;
     display: flex;
     text-decoration: none;
@@ -165,64 +166,123 @@ body, ul {
     font-size: 18px;
     font-weight: bold;
     margin: 30px 0;
- }
- .destaque a:hover{
+}
+
+.destaque a:hover {
     color: rgb(162, 0, 255);
     font-size: 20px;
     transition: 0.3s;
     text-shadow: 4px 4px 6px;
- }
- .destaque img {
+}
+
+.destaque img {
     height: 220px;
 
- }
- /* fim css destaque */
+}
 
- /* inicio css novidades */
+/* fim css destaque */
 
- .novidades .text-body {
-   width: 80%;
-   margin: 70px;
+/* inicio css novidades */
 
- }
+.novidades .text-body {
+    width: 80%;
+    margin: 70px;
 
- .novidades h2 {
-  color: #000;
+}
 
- }
+.novidades h2 {
+    color: #000;
+
+}
+
 .novidades p {
-  color: rgb(0, 0, 0);
-  
-}
-.novidades a {
-color: rgb(255, 255, 255);
-text-decoration: underline;
-text-decoration-color: violet;
-padding: 6px 12px;
-background-color: rgb(0, 0, 0);
-font-weight: 400;
+    color: rgb(0, 0, 0);
 
 }
+
+.novidades a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 400;
+
+}
+
 /* fim css novidades */
 /* inicio css galeria */
 
 .galeria {
- margin: 60px auto 20px;
+    margin: 60px auto 20px;
+
+
+
 
 }
+
 .galeria h2 {
- text-align: center;
- font-size: 24px;
- 
-}
-.galeria p{
-text-align: center;
-width: 50%;
-margin: 14px auto 50px;
+    text-align: center;
+    font-size: 24px;
 
 }
+
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+
+}
+
 .galeria .gallery {
- width: 30%;
- margin: 14px auto 50px;
+    width: 30%;
+    margin: 14px auto 50px;
 
 }
+
+/* fim css galeria */
+
+/* inicio css footer */
+
+.rodape {
+    padding: 50px 50px 0;
+
+}
+.rodape .container img {
+height: 100px;
+
+}
+
+.rodape .info-contato p {
+    margin: 0;
+
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+}
+
+.rodape a:houver {
+    font-weight: bold;
+
+}
+.rodape .redes-sociais {
+display: inline-block;
+
+}
+
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+
+}
+
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* fim css footer */
