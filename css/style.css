@@ -135,14 +135,14 @@ ul {
     #menu {
         display: block;
         position: absolute;
-        width: 15em;
-        top: 70px;
+        width: 14em;
+        top: 100px;
         right: 0px;
-        background: #000000;
+        background: #ff6600;
         transition: 0.6s;
         z-index: 1000px;
         height: 0px;
-        padding-left: 5px;
+        padding-left: 2px;
         visibility: hidden;
         overflow-y: hidden; 
     }
@@ -160,7 +160,7 @@ ul {
     #btn-mobile {
          display: flex;
          padding: 0.5rem;
-         font-size: 1rem;
+         font-size: 2rem;
          border: none;
          background: none;
         cursor: pointer;
@@ -168,7 +168,7 @@ ul {
     }
      #hamburger {
         border-top: 2px solid; /* melhorando hamburger >> espessura da linha  */
-        width: 25px; /*alterando a largura a cor do hamburger */
+        width: 26px; /*alterando a largura a cor do hamburger */
         color: #ffa600; /* alterando a cor do hamburger */
     }
         #hamburger::after,
@@ -300,11 +300,24 @@ ul {
     margin: 14px auto 50px;
 
 }
+.galeria .gallery img {
+    width: 80%;
+    height: 80%;
+    -webkit-transition: -wekit-transform .5s ease;
+    transition: transform .5s ease;
+    display: block;
+}
 
 .galeria .gallery {
     width: 30%;
     margin: 14px auto 50px;
-
+    
+    
+}
+.galeria .gallery img:hover {
+   -webkit-transform: scale(1.9);
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* fim css galeria */
@@ -317,8 +330,15 @@ ul {
 }
 .rodape .container img {
 height: 100px;
+width: 50%;
+padding-left: 10px;
+transition: transform .2s;
 
 }
+ .rodape .container img:hover {
+    transform: scale(1.5);
+
+ }
 
 .rodape .info-contato p {
     margin: 0;
