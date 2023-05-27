@@ -335,7 +335,9 @@ ul {
 /* inicio css footer */
 
 .rodape {
-    padding: 50px 50px 0;
+    padding: 40 px 40 px 0;
+    background-color: #ff9100;
+    margin-top: 0px;
 
 }
 .rodape .container img {
@@ -344,27 +346,29 @@ width: 50%;
 padding-left: 10px;
 transition: transform .2s;
 
+
 }
  .rodape .container img:hover {
     transform: scale(1.5);
+  
 
  }
 
 .rodape .info-contato p {
     margin: 0;
-
+   
 }
 
 .rodape a {
     text-decoration: none;
     color: #000;
     font-size: 13px;
-
+   
 }
 
 .rodape a:houver {
     font-weight: bold;
-
+    
 }
 .rodape .redes-sociais {
 display: inline-block;
@@ -374,7 +378,7 @@ display: inline-block;
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
-
+    
 }
 
 .rodape p.direitos {
@@ -456,36 +460,36 @@ width: 100%;
     margin-bottom: 12px;
     text-transform:uppercase ;
 }
-.heading {
+.text-left {
     border-bottom: 1px solid #fcab0e;
     padding-bottom: 9px;
     position: relative;
 
 }
-.heading span {
+.text-left span {
     background: #9e6600 none repeat scroll 0 0;
     bottom: -2px;
     height: 3px;
     left: 0;
     position: absolute;
-    width: 75px;
+    width: 130px;
 }
-.form {
-    border-radius: 7px;
+.form-horizontal {
+    border-radius: 107px;
     padding: 6px;
 }
-.txt[type="text"] {
+.form-control[type="email"] {
     border: 1px solid #ccc;
     margin: 10px 0;
     padding: 10px 0 10px 5px;
     width: 100%;
 }
-.txt_3[type="text"] {
+.form.control-msg[type="text"] {
     margin: 10px 0 0;
     padding: 10px 0 10px 5px;
     width: 100%;
 }
-.formbutton[type="text"] {
+.formbutton[type="submit"] {
     -moz-box-shadow: inset 0px 1px 0px 0px #87c0e6;
     -webkit-box-shadow: inset 0px 1px 0px 0px #87c0e6;
     box-shadow:inset 0px 1px 0px 0px #87c0e6;
@@ -511,10 +515,20 @@ width: 100%;
     top: 1px;
 }
 .txt2:hover {
-    background: rgba(0 0 0 0) none repeat scroll;
-    color: #5793ef;
+    background: rgba(138, 44, 44, 0) none repeat scroll; 
+    color: #ff9100;
     transition: all 0.5 ease 0s;
 }
 
 /* Fim css contato */
 /* Inicio mapa */
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+/* fim css mapa */
