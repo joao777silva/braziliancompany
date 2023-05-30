@@ -335,10 +335,11 @@ ul {
 /* inicio css footer */
 
 .rodape {
-    padding: 40 px 40 px 0;
+   padding: 45px 45px 0px;
     background-color: #ff9100;
-    margin-top: 0px;
+    
 
+    
 }
 .rodape .container img {
 height: 100px;
@@ -532,3 +533,16 @@ width: 100%;
     height: 100%;
 }
 /* fim css mapa */
+
+/* inicio whatsapp */
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    right: 20px;
+
+}
+.whatsapp img {
+    height: 60px;
+}
+/* fim whatsapp */
