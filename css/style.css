@@ -47,10 +47,10 @@ ul {
     box-sizing: border-box;
     height: 100px;
     padding: 1rem;
-    
     align-items: center;
     justify-content: space-between;
     background: rgb(0, 0, 0);
+    box-shadow: 6px 6px 6px rgb(168, 166, 166);
 }
 #header figcaption {
     font-family: 'Shadows Into Light';
@@ -341,18 +341,20 @@ ul {
 
     
 }
-.rodape .container img {
+.rodape .container #img-logo {
 height: 100px;
 width: 50%;
 padding-left: 10px;
 transition: transform .2s;
+display: block;
 
 
 
 }
  .rodape .container img:hover {
+    z-index: 1;
     transform: scale(1.5);
-  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
 
  }
 
@@ -380,6 +382,10 @@ display: inline-block;
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
+    padding-left: 0;
+    margin-left: 0.7rem;
+    transition: transform .3px;   
+    border-radius: 25px ; /* arredondando div do objeto rede sociais  */
     
 }
 
